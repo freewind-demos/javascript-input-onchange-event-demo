@@ -1,7 +1,3 @@
-function hello(name) {
-    alert(name)
-}
-
-function forEvent(event) {
-    console.log(event.target.innerText)
+function myOnChange(e) {
+  console.log(e.target.value);
 }
